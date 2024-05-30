@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
+}
+
+header{
+    text-align: center;
+}
+
+
+table{
+    width: 60%;
+}
+
+th{
+    background-color: gray;
+}
+
+th,td{
+    text-align: center;
+    height: 50px;
+}
+
+a{
+    width: 70px;
+    border:1px solid grey;
+    background-color: grey;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    padding:5px;
+}

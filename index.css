@@ -25,15 +25,18 @@ table{
 
 th{
     background-color: gray;
+    color: white;
 }
 
 th,td{
     text-align: center;
     height: 50px;
+    min-width: 100px;
 }
 
 a{
-    width: 70px;
+    display:block;
+    width: 100%;
     border:1px solid grey;
     background-color: grey;
     border-radius: 5px;
